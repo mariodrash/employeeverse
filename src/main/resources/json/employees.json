@@ -1,3 +1,184 @@
 [
-  
+  {
+    "id": "5a31402c-27aa-4547-9893-b25905539061",
+    "firstName": "Juan",
+    "middleInitial": "A",
+    "lastName": "Perez",
+    "dateOfBirth": "1980-08-12",
+    "dateOfEmployment": "2019-02-10",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "15205cc7-7715-41a1-bdf7-fb2be9756505",
+    "firstName": "Julian",
+    "middleInitial": "J",
+    "lastName": "Ortiz",
+    "dateOfBirth": "1968-03-01",
+    "dateOfEmployment": "2010-08-28",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "362030f9-2929-4ab0-84a6-88ac579b7967",
+    "firstName": "Andrew",
+    "middleInitial": "B",
+    "lastName": "Thomson",
+    "dateOfBirth": "1974-12-15",
+    "dateOfEmployment": "2016-03-21",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "b7826bed-ad38-4126-8304-edba09276275",
+    "firstName": "Michelle",
+    "middleInitial": "A",
+    "lastName": "Muir",
+    "dateOfBirth": "1994-09-15",
+    "dateOfEmployment": "2018-02-01",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "c26dcb7e-2249-48e8-b2fb-13bbb3abf9cc",
+    "firstName": "Adib",
+    "middleInitial": "M",
+    "lastName": "Perry",
+    "dateOfBirth": "1998-10-21",
+    "dateOfEmployment": "2017-06-19",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "7d52bbc1-1b59-4ac6-a5ad-095f54b8f5c1",
+    "firstName": "Nabiha",
+    "lastName": "Ellis",
+    "dateOfBirth": "1984-04-30",
+    "dateOfEmployment": "2015-11-02",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "10003496-8a9f-4800-b3d1-a1fdd1d85ab6",
+    "firstName": "Shamas",
+    "lastName": "Carter",
+    "dateOfBirth": "1990-02-05",
+    "dateOfEmployment": "2019-01-07",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "5d032e43-dfd6-4bf2-95e4-005c81fe5da4",
+    "firstName": "Brent",
+    "middleInitial": "A",
+    "lastName": "Guerra",
+    "dateOfBirth": "1993-11-24",
+    "dateOfEmployment": "2018-01-07",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "5d84715c-025e-44b4-8b0e-68b7dca52940",
+    "firstName": "Tayla",
+    "lastName": "Knapp",
+    "dateOfBirth": "1979-06-14",
+    "dateOfEmployment": "2010-02-02",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "a4f8ca93-ffd3-45df-a497-71a0ead2a366",
+    "firstName": "Fergus",
+    "middleInitial": "J",
+    "lastName": "Hawkins",
+    "dateOfBirth": "1991-07-28",
+    "dateOfEmployment": "2018-11-10",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dd8bf3fe-0c1e-48d6-b2b7-3436560de25f",
+    "firstName": "Bronwyn",
+    "middleInitial": "B",
+    "lastName": "Cortes",
+    "dateOfBirth": "1983-03-21",
+    "dateOfEmployment": "2016-10-09",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "ef9562ec-9cc8-4f46-a805-63902c0a65b5",
+    "firstName": "Erika",
+    "middleInitial": "N",
+    "lastName": "Lamb",
+    "dateOfBirth": "1992-08-26",
+    "dateOfEmployment": "2018-11-01",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "03bf70a5-9027-4961-a0ec-d38fc1e7cf35",
+    "firstName": "Eshaal",
+    "lastName": "Duarte",
+    "dateOfBirth": "1977-10-30",
+    "dateOfEmployment": "2010-12-28",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "e440d76b-b5bc-4110-bb67-4937fb29cf0d",
+    "firstName": "Sammy",
+    "middleInitial": "B",
+    "lastName": "Bush",
+    "dateOfBirth": "1987-06-10",
+    "dateOfEmployment": "2019-05-10",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "fe8c7698-2651-451f-b3f8-484b99181312",
+    "firstName": "Farhan",
+    "middleInitial": "M",
+    "lastName": "Glass",
+    "dateOfBirth": "1988-02-01",
+    "dateOfEmployment": "2019-03-15",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "55d53882-b45d-436f-a4dc-800ded359b7b",
+    "firstName": "Cheyenne",
+    "lastName": "Russell",
+    "dateOfBirth": "1998-11-30",
+    "dateOfEmployment": "2018-11-28",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "0a9b4f1e-369f-4390-8a9b-901638804669",
+    "firstName": "Lewys",
+    "middleInitial": "B",
+    "lastName": "Heaton",
+    "dateOfBirth": "1989-08-07",
+    "dateOfEmployment": "2017-05-10",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "7da98aa1-977a-4f77-83de-bd6a7ff7a43b",
+    "firstName": "Kwabena",
+    "lastName": "Berger",
+    "dateOfBirth": "1995-08-15",
+    "dateOfEmployment": "2019-07-01",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "cec588b6-1af4-4342-b00f-5d88b1814cec",
+    "firstName": "Jai",
+    "middleInitial": "A",
+    "lastName": "Miller",
+    "dateOfBirth": "1992-05-02",
+    "dateOfEmployment": "2016-05-10",
+    "status": "INACTIVE"
+  },
+  {
+    "id": "3562f2f1-9d43-403c-8a0e-fa43680bc30e",
+    "firstName": "Caspian",
+    "middleInitial": "A",
+    "lastName": "Wills",
+    "dateOfBirth": "1994-01-02",
+    "dateOfEmployment": "2017-10-01",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "f6f0220d-fdce-4fa4-baf0-4bb93b4a1912",
+    "firstName": "Tara",
+    "lastName": "French",
+    "dateOfBirth": "1993-08-07",
+    "dateOfEmployment": "2019-05-28",
+    "status": "ACTIVE"
+  }
 ]
