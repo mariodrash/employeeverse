@@ -46,16 +46,12 @@ public interface EmployeeRepository {
     }
 
     /**
-     * Deletes an employee record in the current repo by Id field.
-     * @param id Id of the record to be deleted from the repository
-     */
-    void deleteEmployeeById(UUID id);
-
-    /**
      * Updates an employee record in the current repo by Id field.
      * @param id Id of the record to be updated from the repository.
+     * @param employee Employee object to be updated in the current repo.
+     * @return int type, 0 if the record was not able to be updated. 1 if it succeed.
      */
-    void updateEmployeeById(UUID id);
+    int updateEmployeeById(UUID id, Employee employee);
 
     /**
      * Gets an employee record in the current repo by Id field.

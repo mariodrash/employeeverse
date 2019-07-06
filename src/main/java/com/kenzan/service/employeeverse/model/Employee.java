@@ -1,5 +1,6 @@
 package com.kenzan.service.employeeverse.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.validation.constraints.NotBlank;
@@ -20,20 +21,45 @@ public class Employee {
     @Size(max = 1)
     private final String middleInitial;
     private final String lastName;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private final Date dateOfBirth;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private final Date dateOfEmployment;
     private Status status;
 
     public enum Status {
-        ACTIVE,
-        INACTIVE
+        ACTIVE("A"),
+        INACTIVE("I");
+
+        private String value;
+
+        Status(String value) {
+
+            this.value = value;
+        }
+
+        public static Status fromValue(String value) {
+
+
+            for(Status status : values()) {
+
+                if(status.value.equalsIgnoreCase(value)) {
+
+                    return status;
+                }
+            }
+
+            //If it is a different String, then take it as an ACTIVE status as this is the default value.
+            return ACTIVE;
+
+        }
     }
 
 
     public Employee(@JsonProperty("id") UUID id, @JsonProperty("firstName") String firstName,
                     @JsonProperty("middleInitial") String middleInitial, @JsonProperty("lastName") String lastName,
                     @JsonProperty("dateOfBirth") Date dateOfBirth, @JsonProperty("dateOfEmployment") Date dateOfEmployment,
-                    String statusStr) {
+                    @JsonProperty("status") Status status) {
 
         this.id =id;
         this.firstName = firstName;
@@ -41,30 +67,19 @@ public class Employee {
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
         this.dateOfEmployment = dateOfEmployment;
-        setStatus(statusStr);
+        this.status = status;
 
     }
 
-    @JsonProperty("status")
-    public void setStatus(String statusStr) {
+    public void setStatus(Status status) {
 
-        this.status = "ACTIVE".equals(statusStr) ? Status.ACTIVE : Status.INACTIVE;
+        this.status = status;
 
     }
 
-    @JsonProperty("status")
-    public String getStatus(Status status) {
+    public Status getStatus() {
 
-        switch (status) {
-
-            case ACTIVE:
-                return "ACTIVE";
-
-                default:
-                    return "INACTIVE";
-
-        }
-
+        return status;
     }
 
     public UUID getId() {
